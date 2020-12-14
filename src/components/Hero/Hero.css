@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+.hero-container {
+    height: 430px;
+    background: url('./hero-img.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text-container {
+    color: #fff;
+    text-align: center;
+    width: 645px;
+    height: 319px;
+    background-color: rgba(9, 24, 63, 0.5);
+    box-shadow: 0px 14px 25px -10px rgba(9, 24, 63, 0.17);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.7em;
+}
+.hero-heading {
+    font-family: 'Merriweather', serif;
+}

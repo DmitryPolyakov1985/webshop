@@ -1,0 +1,31 @@
+footer {
+    height: 200px;
+    background-color: #09183F;
+    display: flex;
+    text-align: center;
+    color: #888;
+    font-size: 1.05rem;
+}
+
+.social-icons {
+    font-size: 1.8rem;
+    margin: 0.9em 0;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3 {
+    width: 30%;
+    padding: 2em 1em;
+}
+
+.footer-col-2 ul li,
+.footer-col-3 ul li {
+    padding: 0.15em 0;
+}
+
+.footer-col-2 ul li:hover,
+.footer-col-3 ul li:hover {
+    color: #fff;
+    cursor: pointer;
+}

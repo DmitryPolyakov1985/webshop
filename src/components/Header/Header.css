@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
+
+header {
+    height: 124px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    font-size: 0.88rem;
+}
+
+.left-nav-menu {
+    color: #09183F;
+    font-weight: 700;
+    position: relative;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.main-nav {
+    width: 495px;
+}
+
+.main-nav ul {
+    /* width: 495px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-drop-down-menu {
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    font-weight: 700;
+}
+
+.product-drop-down-menu ul {
+    background-color: #fff;
+    padding: 20px 40px;
+}
+
+.product-drop-down-menu ul li {
+    padding: 0.8em 0;
+}
+
+.main-nav ul li {
+    cursor: pointer;
+}
+
+.right-nav-menu ul {
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.search-icon {
+    font-size: 20px;
+}
+
+@media (max-width: 1100px) {
+    header {
+        height: 200px;
+    }
+
+    .main-nav {
+        width: 350px;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+    }
+
+    .main-nav ul li {
+        padding-bottom: 0.8em;
+    }
+}
+
+@media (max-width: 900px) {
+    header {
+        height: 200px;
+    }
+
+    .main-nav {
+        width: 200px;
+    }
+}
+
+@media (max-width: 700px) {
+   .right-nav-menu {
+       height: 140px;
+   }
+
+   .right-nav-menu ul {
+       height: 100%;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-around;
+       padding-bottom: 12px;
+   }
+}
+
+
+
