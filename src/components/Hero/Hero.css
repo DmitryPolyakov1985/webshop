@@ -23,6 +23,16 @@
     align-items: center;
     padding: 3.7em;
 }
+
 .hero-heading {
     font-family: 'Merriweather', serif;
 }
+
+@media (max-width: 700px) {
+    .hero-container {
+        height: 480px;
+    }
+    .hero-text-container {
+        height: 370px;
+    }
+ }

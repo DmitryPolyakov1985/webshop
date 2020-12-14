@@ -95,6 +95,10 @@ ul {
    .right-nav-menu {
        height: 140px;
    }
+   
+   .main-nav {
+        width: 180px;
+    }
 
    .right-nav-menu ul {
        height: 100%;

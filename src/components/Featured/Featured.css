@@ -9,7 +9,7 @@
 
 .item-container {
     width: 400px;
-    height: 665px;
+    height: 645px;
     margin: 1em;
     background-color: #fff;
 }
@@ -23,9 +23,12 @@
     text-align: center;
 }
 
-.item-text,
+.item-text {
+    height: 60%;
+}
+
 .item-image {
-    height: 50%;
+    height: 40%;
 }
 
 .item-image img {
@@ -39,4 +42,11 @@
 .item-text p,
 .item-text a {
     display: inline-block;
+}
+
+@media (max-width: 700px) {
+    .item-container {
+        height: 745px;
+    }
+    
 }
