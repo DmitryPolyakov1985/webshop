@@ -2,6 +2,7 @@
 
 .App {
   padding: 3.3em 4.5em;
+  min-width: 600px;
 }
 
 body {
